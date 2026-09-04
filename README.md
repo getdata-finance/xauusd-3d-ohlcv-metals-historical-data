@@ -1,6 +1,6 @@
 # XAUUSD 3d OHLCV Metals Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-6_323_rows-blue)](https://getdata.finance/datasets/xauusd) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/xauusd)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-2_085_rows-blue)](https://getdata.finance/datasets/xauusd) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/xauusd)
 
 ### -> [**Download the full XAUUSD dataset on getdata.finance**](https://getdata.finance/datasets/xauusd)
 
@@ -23,11 +23,11 @@
 
 - **Ultra high-quality 3d OHLCV** for **Gold / US Dollar** (Metals)
 - **Clean CSV schema** — `datetime, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`3d`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/xauusd) · **6,323** `3d` rows in the full archive
+- **Free evaluation sample** on GitHub (`3d`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/xauusd) · **2,085** `3d` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `3d` sample updated in sync
 
-> **Sample on GitHub** · `XAUUSD_3d.csv` (20 rows, `2026-07-06` -> `2026-09-01`, 1.38 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/xauusd)** — **6,323** `3d` rows (full `1m`: 6,032,490), **11 timeframes**, `1970-02-27` -> `2026-09-01`.
+> **Sample on GitHub** · `XAUUSD_3d.csv` (244 rows, `2024-09-02` -> `2026-09-01`, 23.66 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/xauusd)** — **2,085** `3d` rows (full `1m`: 5,887,627), **11 timeframes**, `2009-02-23` -> `2026-09-01`.
 
 ## Download sample
 
@@ -45,9 +45,9 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 |---|--:|---|
 | Instrument | Gold / US Dollar · Metals | Gold / US Dollar · Metals |
 | Timeframes | `3d` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
-| 3d rows | 20 | **6,323** |
-| Size | 1.38 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/xauusd) |
-| Period | `2026-07-06` -> `2026-09-01` | `1970-02-27` -> `2026-09-01` |
+| 3d rows | 244 | **2,085** |
+| Size | 23.66 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/xauusd) |
+| Period | `2024-09-02` -> `2026-09-01` | `2009-02-23` -> `2026-09-01` |
 | File | `XAUUSD_3d.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/xauusd) |
 | Coverage report | — | [XAUUSD coverage](https://getdata.finance/coverage/xauusd) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
@@ -75,21 +75,21 @@ First and latest rows from the GitHub sample **`XAUUSD_3d.csv`**:
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-07-06T00:00:00+00:00 | 4075.27 | 4138.05 | 4054.21 | 4123.35 | 1586202 |
-| 2026-07-09T00:00:00+00:00 | 4123.35 | 4134.83 | 4060.5 | 4099.67 | 1357750 |
-| 2026-07-12T00:00:00+00:00 | 4111.51 | 4111.51 | 3983.11 | 4059.82 | 3110600 |
-| 2026-07-15T00:00:00+00:00 | 4059.82 | 4065.24 | 3959.49 | 4050.83 | 4359944 |
-| 2026-07-18T00:00:00+00:00 | 4013.3 | 4087.32 | 3982.21 | 4077.43 | 1668040 |
+| 2024-09-02T00:00:00+00:00 | 2518.44 | 2522.76 | 2467.34 | 2491.15 | 994711 |
+| 2024-09-05T00:00:00+00:00 | 2491.15 | 2524.8 | 2480.62 | 2491.75 | 857292 |
+| 2024-09-08T00:00:00+00:00 | 2491.75 | 2514.55 | 2481.07 | 2514.33 | 681385 |
+| 2024-09-11T00:00:00+00:00 | 2514.33 | 2581.64 | 2496.55 | 2576.23 | 1257615 |
+| 2024-09-14T00:00:00+00:00 | 2576.23 | 2584.4 | 2570 | 2578.39 | 285019 |
 
 **Last rows**
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-08-20T00:00:00+00:00 | 4518.53 | 4632.07 | 4508.71 | 4608.07 | 945337 |
-| 2026-08-23T00:00:00+00:00 | 4608.07 | 4696.62 | 4566.48 | 4580.67 | 2401724 |
-| 2026-08-26T00:00:00+00:00 | 4580.67 | 4626.71 | 4441.31 | 4452.78 | 1407193 |
-| 2026-08-29T00:00:00+00:00 | 4456.77 | 4472.13 | 4322.66 | 4328.35 | 2056503 |
-| 2026-09-01T00:00:00+00:00 | 4328.35 | 4335.81 | 4288.45 | 4289.48 | 162596 |
+| 2026-08-20T00:00:00+00:00 | 4530.4 | 4649.56 | 4469.34 | 4625.56 | 1879087.05762 |
+| 2026-08-23T00:00:00+00:00 | 4608.07 | 4696.62 | 4594.49 | 4654.83 | 2181136 |
+| 2026-08-26T00:00:00+00:00 | 4654.83 | 4670.58 | 4445.31 | 4456.77 | 2988480 |
+| 2026-08-29T00:00:00+00:00 | 4456.77 | 4472.01 | 4396.4 | 4452.24 | 999146 |
+| 2026-09-01T00:00:00+00:00 | 4452.24 | 4461.43 | 4288.45 | 4289.72 | 1212309 |
 
 ## Schema
 
@@ -154,7 +154,7 @@ print(pf.stats())
 
 ## Download full data
 
-The complete **XAUUSD** archive on **[getdata.finance](https://getdata.finance/datasets/xauusd)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **6,323** rows at `3d`, plus all other timeframes in the same ZIP.
+The complete **XAUUSD** archive on **[getdata.finance](https://getdata.finance/datasets/xauusd)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **2,085** rows at `3d`, plus all other timeframes in the same ZIP.
 
 **[-> Get the full XAUUSD dataset on getdata.finance](https://getdata.finance/datasets/xauusd)**
 
